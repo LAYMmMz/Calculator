@@ -83,3 +83,16 @@ For the required screenshots, follow [SCREENSHOT_GUIDE.md](SCREENSHOT_GUIDE.md).
 ## Repository
 
 https://github.com/LAYMmMz/Calculator
+
+
+## Project Testing
+
+The calculator supports addition, subtraction, multiplication,
+and division. Each function can be tested using the terminal.
+
+Run the calculator:
+python calculator.py
+
+Run the unit tests:
+python -m unittest discover -v
+
