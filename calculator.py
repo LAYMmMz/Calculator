@@ -12,7 +12,7 @@ def add(a, b):
 
 def subtract(a, b):
     """Subtract the second number from the first."""
-    raise NotImplementedError("Subtraction is not implemented yet.")
+    return a - b
 
 
 
