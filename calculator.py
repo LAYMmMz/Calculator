@@ -3,7 +3,7 @@
 
 def add(a, b):
     """Add two numbers."""
-    raise NotImplementedError("Addition is not implemented yet.")
+    return a + b
 
 
 
