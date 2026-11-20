@@ -21,7 +21,7 @@ def subtract(a, b):
 
 def multiply(a, b):
     """Multiply two numbers."""
-    raise NotImplementedError("Multiplication is not implemented yet.")
+    return a * b
 
 
 
