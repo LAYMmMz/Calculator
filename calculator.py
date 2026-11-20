@@ -30,7 +30,9 @@ def multiply(a, b):
 
 def divide(a, b):
     """Divide the first number by the second."""
-    raise NotImplementedError("Division is not implemented yet.")
+    if b == 0:
+        raise ZeroDivisionError("Cannot divide by zero.")
+    return a / b
 
 
 
