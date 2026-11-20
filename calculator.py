@@ -41,7 +41,7 @@ def main():
 
         choice = input("Choose an option (1-5): ").strip()
         if choice == "5":
-            print("Thanks for using the calculator!")
+            print("Thank you for using the calculator!")
             break
         if choice not in operations:
             print("Invalid option. Please choose 1 to 5.")
